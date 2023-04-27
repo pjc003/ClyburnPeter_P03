@@ -552,18 +552,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 929125958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2a7ff8fd4c5e014db6c498c78de832c, type: 3}
+  m_Script: {fileID: 11500000, guid: c5a26048b2687cc48907e6ce2ae7d58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Pistol
-  _damangeAmount: 10
-  _maxAmmo: 32
-  _magSize: 6
-  _LDS: 1
-  _fireSFX: {fileID: 0}
-  _reloadSFX: {fileID: 0}
-  _fireVFX: {fileID: 0}
-  _weaponObject: {fileID: 0}
+  _data: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

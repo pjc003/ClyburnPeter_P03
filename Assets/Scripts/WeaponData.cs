@@ -18,16 +18,18 @@ public class WeaponData : ScriptableObject
      * gameobject
      * */
     [Header("Weapon Info")]
-    [SerializeField] private string _name = "...";
+    [SerializeField] string _name = "...";
+
     [Header("Combat Stats")]
-    [SerializeField] private WeaponType _weaponType;
-    [SerializeField] private float _damangeAmount = 1;
-    [SerializeField][Tooltip("If weapon is melee, leave blank")] private int _maxAmmo = 12;
-    [SerializeField][Tooltip("If weapon is melee, leave blank")] private int _magSize = 3;
-    [SerializeField][Tooltip("Can you look down sights?")] private bool _LDS;
+    [SerializeField] WeaponType _weaponType;
+    [SerializeField] float _damangeAmount = 1;
+    [SerializeField][Tooltip("If weapon is melee, leave blank")] int _maxAmmo = 12;
+    [SerializeField][Tooltip("If weapon is melee, leave blank")] int _magSize = 3;
+    [SerializeField][Tooltip("Can you look down sights?")] bool _LDS;
+
     [Header("SFX")]
-    [SerializeField] private AudioClip _fireSFX;
-    [SerializeField] private AudioClip _reloadSFX;
-    [SerializeField] private ParticleSystem _fireVFX;
+    [SerializeField] AudioClip _fireSFX;
+    [SerializeField] AudioClip _reloadSFX;
+    [SerializeField] ParticleSystem _fireVFX;
 
 }
