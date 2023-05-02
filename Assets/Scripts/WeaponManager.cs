@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class WeaponManager : MonoBehaviour
 {
@@ -41,6 +43,24 @@ public class WeaponManager : MonoBehaviour
                 break;
             case Slot.w4:
                 Slot4();
+                break;
+            case Slot.w5:
+                Slot5();
+                break;
+            case Slot.w6:
+                Slot6();
+                break;
+            case Slot.w7:
+                Slot7();
+                break;
+            case Slot.w8:
+                Slot8();
+                break;
+            case Slot.w9:
+                Slot9();
+                break;
+            case Slot.w10:
+                Slot10();
                 break;*/
         }
 
@@ -77,6 +97,7 @@ public class WeaponManager : MonoBehaviour
                 _weapon1.SetActive(false);
                 Debug.Log("weapon 1 unequipped");
                 ChangeSlot(Slot.picker);
+                
             }
         }
 
@@ -99,10 +120,12 @@ public class WeaponManager : MonoBehaviour
                 _weapon2.SetActive(false);
                 Debug.Log("weapon 2 unequipped");
                 ChangeSlot(Slot.picker);
+
             }
         }
 
     }
+
 
     public void ChangeSlot(Slot newSlot)
     {

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a7ff8fd4c5e014db6c498c78de832c, type: 3}
+  m_Name: WeaponData_Pistol
+  m_EditorClassIdentifier: 
+  _name: Pistol
+  _weaponType: 0
+  _damangeAmount: 1
+  _shootDistance: 20
+  _maxAmmo: 12
+  _magSize: 3
+  _LDS: 0
+  _fireSFX: {fileID: 7000486155315423610, guid: c4a44ecef3693674895a602a9aa156ca, type: 3}
+  _reloadSFX: {fileID: 2842779334408233808, guid: 31a5b832090c0c2488a8394028bde1d8, type: 3}
+  _emptySFX: {fileID: 4375590671786701805, guid: bf0b5e5448131db4b92f75d91e2adc5b, type: 3}

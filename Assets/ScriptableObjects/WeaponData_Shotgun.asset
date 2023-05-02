@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a7ff8fd4c5e014db6c498c78de832c, type: 3}
+  m_Name: WeaponData_Shotgun
+  m_EditorClassIdentifier: 
+  _name: Shotgun
+  _weaponType: 0
+  _damangeAmount: 1
+  _shootDistance: 20
+  _maxAmmo: 12
+  _magSize: 3
+  _LDS: 0
+  _fireSFX: {fileID: 6736781990290720157, guid: e66728befe01aea449fed60f69633408, type: 3}
+  _reloadSFX: {fileID: 7394544386721426983, guid: 32e41bc726d60854ab0fc162e0680ce8, type: 3}
